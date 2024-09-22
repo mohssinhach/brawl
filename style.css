@@ -106,7 +106,7 @@ a:hover, a:visited, a:focus, a:active, button:hover, button:visited, button:acti
 	background-size: cover;
 }
 .overlay-pattern {
-    background: url('../img/overlay-pattern.png');
+    background: url('https://i.postimg.cc/yY5z4Hrk/main-bg.jpg');
     opacity: 0.5;
     position: fixed;
     left: 0;
