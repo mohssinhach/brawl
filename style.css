@@ -549,7 +549,7 @@ a:hover, a:visited, a:focus, a:active, button:hover, button:visited, button:acti
 footer {
 	margin-top: 320px;
 	text-align: center;
-	padding: 5px 0;
+	padding: 0px 0;
 	color: rgba(255, 255, 255, 0.5);
 	font-size: 1em;
 	position: relative;
