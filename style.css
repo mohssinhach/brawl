@@ -106,7 +106,7 @@ a:hover, a:visited, a:focus, a:active, button:hover, button:visited, button:acti
 	background-size: cover;
 }
 .overlay-pattern {
-    background: url('https://i.postimg.cc/yY5z4Hrk/main-bg.jpg');
+    background: url('https://i.postimg.cc/VNsyXkJZ/overlay-pattern.png');
     opacity: 0.5;
     position: fixed;
     left: 0;
@@ -123,7 +123,7 @@ a:hover, a:visited, a:focus, a:active, button:hover, button:visited, button:acti
     -ms-animation: overlay .5s .5s forwards;
     animation: overlay .5s .5s forwards;
     background-attachment: fixed, fixed;
-    background-image: url(../img/overlay-pattern2.png), url(../img/overlay.svg);
+    background-image: url(https://i.postimg.cc/ZnGjHVVK/overlay-pattern2.png), url(https://jmp.sh/s/Yv6VqM1q7ghipUgH5JBG);
     background-position: top left, center center;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
