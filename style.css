@@ -124,7 +124,7 @@ a:hover, a:visited, a:focus, a:active, button:hover, button:visited, button:acti
     animation: overlay .5s .5s forwards;
     background-attachment: fixed, fixed;
     background-image: url(https://i.postimg.cc/ZnGjHVVK/overlay-pattern2.png), url(https://jmp.sh/s/Yv6VqM1q7ghipUgH5JBG);
-    background-position: top left, center center;
+    background-position: center, center center;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
     height: 100%;
