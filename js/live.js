@@ -9,5 +9,5 @@ VanillaToasts.create({
   icon: 'https://i.postimg.cc/fR4qMrzz/profile.png',
   timeout: 2500,
 });
-setTimeout(create, 6000)
+setTimeout(create, 9500)
 }
