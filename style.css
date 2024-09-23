@@ -100,9 +100,9 @@ a:hover, a:visited, a:focus, a:active, button:hover, button:visited, button:acti
 	bottom: 0;
 	min-width: 100%; 
 	min-height: 100%;
-	z-index: -20;
+	z-index: -50;
 	background: url('https://i.postimg.cc/yY5z4Hrk/main-bg.jpg');
-	background-repeat:repeat;
+	background-repeat:no repeat;
 	background-size: cover;
 }
 .overlay-pattern {
