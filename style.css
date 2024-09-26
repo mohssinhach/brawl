@@ -101,12 +101,12 @@ a:hover, a:visited, a:focus, a:active, button:hover, button:visited, button:acti
 	min-width: 100%; 
 	min-height: 100%;
 	z-index: -20;
-	background: url('https://i.postimg.cc/FRcZTwnd/download.jpg');
-	background-repeat:no repeat;
+	background: url('../img/main-bg.jpg');
+	background-repeat: no-repeat;
 	background-size: cover;
 }
 .overlay-pattern {
-    background: url('https://i.postimg.cc/VNsyXkJZ/overlay-pattern.png');
+    background: url('../img/overlay-pattern.png');
     opacity: 0.5;
     position: fixed;
     left: 0;
@@ -123,8 +123,8 @@ a:hover, a:visited, a:focus, a:active, button:hover, button:visited, button:acti
     -ms-animation: overlay .5s .5s forwards;
     animation: overlay .5s .5s forwards;
     background-attachment: fixed, fixed;
-    background-image: url(https://i.postimg.cc/ZnGjHVVK/overlay-pattern2.png), url(https://jmp.sh/s/Yv6VqM1q7ghipUgH5JBG);
-    background-position: center, center center;
+    background-image: url(../img/overlay-pattern2.png), url(../img/overlay.svg);
+    background-position: top left, center center;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
     height: 100%;
@@ -505,23 +505,22 @@ a:hover, a:visited, a:focus, a:active, button:hover, button:visited, button:acti
 	margin: 30px auto 0 auto;
 }
 .button {
-    background: #8400ff;
-    display: table;   	
-</div>    margin: 0 auto;
-    padding: 50px 50px; /* قم بإزالة الpadding الأيسر */
-    color: #fff;
-    border-radius: 20px;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 2px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.3);
-    text-decoration: none !important;
-    border: 2px solid #eee;
-    position: relative;
-    cursor: pointer;
-    font-size: 1.4em;
+	background: #8400ff;
+	display: table;
+	margin: 0 auto;
+	padding: 25px 35px 25px 55px;
+	color: #fff;
+	border-radius: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.3);
+	text-decoration: none !important;
+	border: 2px solid #eee;
+	position: relative;
+	cursor: pointer;
+	font-size: 1.4em;
 }
-
 .button:hover {
 	background: #8400ff;
 	color: #fff;
@@ -529,7 +528,7 @@ a:hover, a:visited, a:focus, a:active, button:hover, button:visited, button:acti
 .button span.lnr {
 	position: absolute;
 	left: 17px;
-	top: 17px;
+	top: 27px;
 	font-size: 1.2em;
 	color: #fff;
 	-webkit-transition: all 0.2s ease-in-out 0s;
