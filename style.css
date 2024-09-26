@@ -529,7 +529,7 @@ a:hover, a:visited, a:focus, a:active, button:hover, button:visited, button:acti
 .button span.lnr {
 	position: absolute;
 	left: 17px;
-	top: 27px;
+	top: 17px;
 	font-size: 1.2em;
 	color: #fff;
 	-webkit-transition: all 0.2s ease-in-out 0s;
