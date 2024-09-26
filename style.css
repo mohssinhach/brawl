@@ -502,15 +502,13 @@ a:hover, a:visited, a:focus, a:active, button:hover, button:visited, button:acti
 # Button
 --------------------------------------------------------------*/
 .button-wrapper {
-    margin: 30px auto 0 auto;
+	margin: 30px auto 0 auto;
 }
-
 .button {
     background: #8400ff;
-    display: flex; /* Use flex to align the content */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    padding: 20px 50px; /* Adjust padding if necessary */
+    display: table;   	
+</div>    margin: 0 auto;
+    padding: 50px 50px; /* قم بإزالة الpadding الأيسر */
     color: #fff;
     border-radius: 20px;
     text-transform: uppercase;
@@ -525,21 +523,23 @@ a:hover, a:visited, a:focus, a:active, button:hover, button:visited, button:acti
 }
 
 .button:hover {
-    background: #8400ff;
-    color: #fff;
+	background: #8400ff;
+	color: #fff;
 }
-
 .button span.lnr {
-    position: absolute;
-    left: 17px;
-    top: 17px;
-    font-size: 1.2em;
-    color: #fff;
-    transition: all 0.2s ease-in-out;
-    font-weight: 400;
-    text-shadow: none;
+	position: absolute;
+	left: 17px;
+	top: 17px;
+	font-size: 1.2em;
+	color: #fff;
+	-webkit-transition: all 0.2s ease-in-out 0s;
+	-moz-transition: all 0.2s ease-in-out 0s;
+	-ms-transition: all 0.2s ease-in-out 0s;
+	-o-transition: all 0.2s ease-in-out 0s;
+	font-weight: 400;
+	text-shadow: none;
+	transition: all 0.2s ease-in-out 0s;
 }
-
 .button:hover span.lnr {
 	color: #fff;
 }
