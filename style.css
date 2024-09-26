@@ -508,7 +508,7 @@ a:hover, a:visited, a:focus, a:active, button:hover, button:visited, button:acti
     background: #8400ff;
     display: table;
     margin: 0 auto;
-    padding: 25px 25px; /* قم بإزالة الpadding الأيسر */
+    padding: 50px 50px; /* قم بإزالة الpadding الأيسر */
     color: #fff;
     border-radius: 20px;
     text-transform: uppercase;
