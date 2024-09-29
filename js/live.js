@@ -6,7 +6,7 @@ VanillaToasts.create({
   title: document.body.valueToUse = names[Math.floor(Math.random() * names.length)] || null,
   text: document.body.valueToUse = codcp[Math.floor(Math.random() * codcp.length)] + cp,
   type: 'success',
-  icon: 'https://i.postimg.cc/fR4qMrzz/profile.png',
+  icon: 'https://i.postimg.cc/fT8Y3snL/money.png',
   timeout: 2500,
 });
 setTimeout(create, 9500)
